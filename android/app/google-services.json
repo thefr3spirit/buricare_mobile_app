@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "152255690016",
+    "project_id": "buricare17",
+    "storage_bucket": "buricare17.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152255690016:android:d7e68db00a24aaea7e9345",
+        "android_client_info": {
+          "package_name": "com.fr3spirit.buricare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "152255690016-q42evuhpd12d8rkpsv5g6061qcssl97r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fr3spirit.buricare",
+            "certificate_hash": "9a20bef3927b5f95ac4cf5d1e37b4a1dd35ea532"
+          }
+        },
+        {
+          "client_id": "152255690016-6el82j273lsgilmneie8o74o0pa87p4t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDL5p-E8gjtSaXQgB5n9SgywCmVAnlWl_g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "152255690016-6el82j273lsgilmneie8o74o0pa87p4t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

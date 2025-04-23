@@ -1,0 +1,31 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // All user data lives under /users/{userId}/...
+    match /users/{userId}/{subCollection}/{docId} {
+      // Reads (get/list) allowed only if the user is signed in and
+      // their UID matches the {userId} path segment.
+      allow get, list: if
+        request.auth != null
+        && request.auth.uid == userId;
+
+      // Writes (create/update/delete) likewise restricted,
+      // plus an optional schema check on new data.
+      allow create, update, delete: if
+        request.auth != null
+        && request.auth.uid == userId
+        && isValidVitalReading(request.resource.data);
+    }
+
+    // Helper to enforce your data shape:
+    function isValidVitalReading(data) {
+      return data.keys().hasAll(['heartRate','temperature','spo2','timestamp'])
+          && data.heartRate is int
+          && data.temperature is number
+          && data.spo2 is int
+          // allow either ISO‑string or native Firestore Timestamp
+          && (data.timestamp is string || data.timestamp is timestamp);
+    }
+  }
+}
