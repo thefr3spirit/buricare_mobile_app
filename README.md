@@ -1,7 +1,8 @@
-#BuriCare
+BuriCare
+
 An end-to-end Flutter application for monitoring and storing premature babies’ vital signs in real time, with background operation, local caching, and Firebase synchronization.
 
-#Description
+Description
 BuriCare connects via Bluetooth to a pouch device that maintains an optimal incubator-like environment. The attached sensor measures heart rate, internal body temperature, and SpO₂, streaming data to the app. There are two user roles: medical personnel and parents—both can view real-time vitals, historical trends, and receive alerts if any value drifts outside safe ranges.
 
 Key Features
