@@ -40,9 +40,6 @@
 
 ## About BuriCare
 
-<div align="center">
-  <img src="assets/buricare_hero.png" alt="BuriCare Hero Image" width="600">
-</div>
 
 BuriCare is a cutting-edge Flutter application designed to work with a specialized Bluetooth-connected pouch device, creating an optimal environment for premature babies. The system combines hardware innovation with software excellence to provide comprehensive monitoring and care solutions.
 
@@ -132,15 +129,15 @@ Before you begin, ensure you have the following installed:
   <table>
     <tr>
       <td align="center">
-        <img src="assets/reg_shot.jpg" alt="Sign In" width="200"/><br>
+        <img src="assets/reg_shot.jpg" alt="Sign In" width="120" height="220"/><br>
         <b>Authentication</b>
       </td>
       <td align="center">
-        <img src="assets/hom_shot.jpg" alt="Dashboard" width="200"/><br>
+        <img src="assets/hom_shot.jpg" alt="Dashboard" width="120" height="220"/><br>
         <b>Vitals Dashboard</b>
       </td>
       <td align="center">
-        <img src="assets/anl_shot.jpg" alt="Graphs" width="200"/><br>
+        <img src="assets/anl_shots.jpg" alt="Graphs" width="120" height="220"/><br>
         <b>Historical Data</b>
       </td>
     </tr>
@@ -171,13 +168,6 @@ BuriCare continues monitoring even when not in active use:
 
 ---
 
-## Screenshots
-
-<div align="center">
-  <img src="assets/lgn_shot.jpeg" alt="BuriCare Screenshots" width="800">
-</div>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 
