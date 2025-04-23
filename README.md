@@ -132,15 +132,15 @@ Before you begin, ensure you have the following installed:
   <table>
     <tr>
       <td align="center">
-        <img src="assets/screenshot_signin.png" alt="Sign In" width="200"/><br>
+        <img src="assets/reg_shot.jpg" alt="Sign In" width="200"/><br>
         <b>Authentication</b>
       </td>
       <td align="center">
-        <img src="assets/screenshot_dashboard.png" alt="Dashboard" width="200"/><br>
+        <img src="assets/hom_shot.jpg" alt="Dashboard" width="200"/><br>
         <b>Vitals Dashboard</b>
       </td>
       <td align="center">
-        <img src="assets/screenshot_graphs.png" alt="Graphs" width="200"/><br>
+        <img src="assets/anl_shot.jpg" alt="Graphs" width="200"/><br>
         <b>Historical Data</b>
       </td>
     </tr>
@@ -174,7 +174,7 @@ BuriCare continues monitoring even when not in active use:
 ## Screenshots
 
 <div align="center">
-  <img src="assets/rgn_shot.jpeg" alt="BuriCare Screenshots" width="800">
+  <img src="assets/lgn_shot.jpeg" alt="BuriCare Screenshots" width="800">
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
