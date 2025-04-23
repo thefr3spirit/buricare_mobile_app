@@ -1,68 +1,62 @@
 <a id="readme-top"></a>
 
-[![Contributors][contributors-shield]][contributors-url]  
-[![Forks][forks-shield]][forks-url]  
-[![Stargazers][stars-shield]][stars-url]  
-[![Issues][issues-shield]][issues-url]  
-[![License][license-shield]][license-url]  
-[![LinkedIn][linkedin-shield]][linkedin-url]  
-
-<br />
-
 <div align="center">
-  <a href="https://github.com/thefr3spirit/buricare_mobile_app">
-    <img src="assets/buricare_logo.png" alt="BuriCare Logo" width="80" height="80">
-  </a>
+  <img src="assets/buricare_logo.png" alt="BuriCare Logo" width="120" height="120">
+  
+  # BuriCare Mobile App
+  
+  ### Real-time monitoring and care for premature babies
+  
+  [![Contributors][contributors-shield]][contributors-url]
+  [![Forks][forks-shield]][forks-url]
+  [![Stars][stars-shield]][stars-url]
+  [![Issues][issues-shield]][issues-url]
+  [![License][license-shield]][license-url]
+  [![LinkedIn][linkedin-shield]][linkedin-url]
 
-  <h3 align="center">BuriCare Mobile App</h3>
-
-  <p align="center">
-    A Flutter-based application for real-time monitoring, local caching, 
-    and cloud synchronization of premature babies’ vital signs.
-    <br />
-    <a href="https://github.com/thefr3spirit/buricare_mobile_app"><strong>Explore the Code »</strong></a>
-    <br /><br />
-    <a href="https://github.com/thefr3spirit/buricare_mobile_app">View Demo</a>
-    &middot;
-    <a href="https://github.com/thefr3spirit/buricare_mobile_app/issues/new?labels=bug">Report Bug</a>
-    &middot;
-    <a href="https://github.com/thefr3spirit/buricare_mobile_app/issues/new?labels=enhancement">Request Feature</a>
-  </p>
+  [<img src="https://img.shields.io/badge/Watch_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch Demo" />](assets/demo.mp4)
+  [<img src="https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="View Code" />](https://github.com/thefr3spirit/buricare_mobile_app)
+  [<img src="https://img.shields.io/badge/Report_Bug-F44336?style=for-the-badge&logo=bug&logoColor=white" alt="Report Bug" />](https://github.com/thefr3spirit/buricare_mobile_app/issues/new?labels=bug)
 </div>
 
 ---
 
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li><a href="#about-the-project">About The Project</a></li>
-    <li><a href="#built-with">Built With</a></li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul><li><a href="#prerequisites">Prerequisites</a></li>
-          <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ol>
-</details>
+## 📋 Table of Contents
+
+- [📱 About BuriCare](#about-buricare)
+- [✨ Key Features](#key-features)
+- [🛠️ Built With](#built-with)
+- [🚀 Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [💻 Usage](#usage)
+- [📊 Screenshots](#screenshots)
+- [🗺️ Roadmap](#roadmap)
+- [👥 Contributing](#contributing)
+- [📄 License](#license)
+- [📞 Contact](#contact)
 
 ---
 
-## About The Project
+## About BuriCare
 
-BuriCare is a cross-platform Flutter app designed to work with a Bluetooth-connected pouch device that provides an optimal environment for premature babies. Equipped with sensors for heart rate, temperature, and SpO₂, the device streams data to the mobile app, allowing both medical professionals and parents to:
+<div align="center">
+  <img src="assets/buricare_hero.png" alt="BuriCare Hero Image" width="600">
+</div>
 
-- **View real-time vitals** on dedicated dashboard tiles.  
-- **Store data locally** using Hive for offline reliability.  
-- **Aggregate readings** into minute, hourly, and daily averages.  
-- **Sync** with Firebase Firestore under `/users/{uid}/…` collections.  
-- **Receive alerts** when vitals deviate from safe ranges.  
-- **Run in the background**, ensuring continuous monitoring even when the UI is closed.
+BuriCare is a cutting-edge Flutter application designed to work with a specialized Bluetooth-connected pouch device, creating an optimal environment for premature babies. The system combines hardware innovation with software excellence to provide comprehensive monitoring and care solutions.
+
+The pouch device features advanced sensors that continuously track vital signs including heart rate, temperature, and oxygen saturation (SpO₂). This data streams directly to the mobile app in real-time, allowing both medical professionals and parents to monitor the baby's condition from anywhere.
+
+## Key Features
+
+- **📊 Real-time Vitals Dashboard** - View critical measurements on dedicated, easy-to-read tiles
+- **💾 Offline Reliability** - Local storage using Hive ensures data is never lost
+- **📈 Smart Data Aggregation** - Automatic calculation of minute, hourly, and daily averages
+- **☁️ Cloud Synchronization** - Seamless syncing with Firebase Firestore when connected
+- **🚨 Intelligent Alerts** - Immediate notifications when vitals fall outside safe ranges
+- **🔄 Background Operation** - Continuous monitoring even when the app is closed
+- **👨‍👩‍👧‍👦 Family Sharing** - Multiple caregivers can access the same baby's data
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -70,13 +64,17 @@ BuriCare is a cross-platform Flutter app designed to work with a Bluetooth-conne
 
 ## Built With
 
-- [![Flutter][Flutter-shield]][Flutter-url]  
-- [![Dart][Dart-shield]][Dart-url]  
-- [![Firebase][Firebase-shield]][Firebase-url]  
-- [![Hive][Hive-shield]][Hive-url]  
-- [![Riverpod][Riverpod-shield]][Riverpod-url]  
-- [![Connectivity Plus][Connectivity-shield]][Connectivity-url]  
-- [![Flutter Local Notifications][Notifications-shield]][Notifications-url]  
+<div align="center">
+  
+  [![Flutter][Flutter-shield]][Flutter-url] 
+  [![Dart][Dart-shield]][Dart-url] 
+  [![Firebase][Firebase-shield]][Firebase-url]
+  
+  [![Hive][Hive-shield]][Hive-url] 
+  [![Riverpod][Riverpod-shield]][Riverpod-url] 
+  [![Connectivity Plus][Connectivity-shield]][Connectivity-url]
+  
+</div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -86,38 +84,40 @@ BuriCare is a cross-platform Flutter app designed to work with a Bluetooth-conne
 
 ### Prerequisites
 
-- Flutter SDK (>= 3.19)  
-- Dart SDK (>= 3.3)  
-- Android Studio / Xcode  
-- Firebase project with Android/iOS apps configured  
+Before you begin, ensure you have the following installed:
+
+- Flutter SDK (>= 3.19)
+- Dart SDK (>= 3.3)
+- Android Studio / Xcode
+- Firebase project with Android/iOS apps configured
 
 ### Installation
 
-1. **Clone the repo**  
+1. **Clone the repository**
    ```sh
    git clone https://github.com/thefr3spirit/buricare_mobile_app.git
    cd buricare_mobile_app
    ```
 
-2. **Install packages**  
+2. **Install dependencies**
    ```sh
    flutter pub get
    ```
 
-3. **Configure Firebase**  
-   - Place `google-services.json` in `android/app/`  
-   - Place `GoogleService-Info.plist` in `ios/Runner/`  
-   - (Re)generate `lib/firebase_options.dart` with FlutterFire CLI:
+3. **Configure Firebase**
+   - Place `google-services.json` in `android/app/`
+   - Place `GoogleService-Info.plist` in `ios/Runner/`
+   - Generate configuration files:
      ```sh
      flutterfire configure
      ```
 
-4. **Generate Hive adapters**  
+4. **Generate Hive adapters**
    ```sh
    flutter pub run build_runner build --delete-conflicting-outputs
    ```
 
-5. **Run the app**  
+5. **Run the application**
    ```sh
    flutter run
    ```
@@ -128,16 +128,54 @@ BuriCare is a cross-platform Flutter app designed to work with a Bluetooth-conne
 
 ## Usage
 
-- **Sign In:** Email/password or Google.  
-- **AuthGate** directs users to sign-in, email-verification, or home screens.  
-- **Home Dashboard:**  
-  - Real-time tiles for each vital.  
-  - Button to view graphs (last minute, hour, day, month).  
-- **Background Operation:**  
-  - On Android, a foreground service keeps the app alive.  
-  - On iOS, background fetch syncs cached data periodically.  
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="assets/screenshot_signin.png" alt="Sign In" width="200"/><br>
+        <b>Authentication</b>
+      </td>
+      <td align="center">
+        <img src="assets/screenshot_dashboard.png" alt="Dashboard" width="200"/><br>
+        <b>Vitals Dashboard</b>
+      </td>
+      <td align="center">
+        <img src="assets/screenshot_graphs.png" alt="Graphs" width="200"/><br>
+        <b>Historical Data</b>
+      </td>
+    </tr>
+  </table>
+</div>
 
-_For more details, see the in-code comments under `lib/services/` and `lib/repositories/`._
+### Authentication
+
+The app features a streamlined authentication flow:
+- Sign in with email/password or Google account
+- Automatic routing to sign-in, email-verification, or home screens
+
+### Home Dashboard
+
+The heart of BuriCare is the intuitive dashboard:
+- Real-time visualization tiles for each vital sign
+- Color-coded indicators for at-a-glance status assessment
+- Easy access to historical data through interactive graphs
+
+### Background Operation
+
+BuriCare continues monitoring even when not in active use:
+- On Android, a foreground service maintains connectivity
+- On iOS, background fetch enables periodic data synchronization
+- Low battery impact through optimized Bluetooth communication
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## Screenshots
+
+<div align="center">
+  <img src="assets/rgn_shot.jpeg" alt="BuriCare Screenshots" width="800">
+</div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,13 +183,16 @@ _For more details, see the in-code comments under `lib/services/` and `lib/repos
 
 ## Roadmap
 
-- [ ] Add daily average graph  
-- [ ] Implement push notifications for alerts  
-- [ ] Enhance background reliability on iOS  
-- [ ] Add unit & integration tests  
-- [ ] CI/CD pipeline for automated builds  
+Our development roadmap focuses on enhancing functionality and user experience:
 
-See [open issues](https://github.com/thefr3spirit/buricare_mobile_app/issues) for more.
+- [ ] Advanced analytics dashboard with trend detection
+- [ ] Push notifications for alerts when app is closed
+- [ ] Enhanced background reliability for iOS devices
+- [ ] Comprehensive unit and integration test suite
+- [ ] Automated CI/CD pipeline for builds and testing
+- [ ] Medical professional portal with expanded capabilities
+
+See our [open issues](https://github.com/thefr3spirit/buricare_mobile_app/issues) for a complete list of proposed features and known issues.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -159,13 +200,15 @@ See [open issues](https://github.com/thefr3spirit/buricare_mobile_app/issues) fo
 
 ## Contributing
 
-Contributions are welcome! Please:
+We welcome contributions to the BuriCare project! Here's how to get involved:
 
-1. Fork the repo  
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)  
-3. Commit your changes (`git commit -m 'Add feature'`)  
-4. Push to the branch (`git push origin feature/AmazingFeature`)  
-5. Open a Pull Request  
+1. Fork the repository
+2. Create your feature branch: `git checkout -b feature/AmazingFeature`
+3. Commit your changes: `git commit -m 'Add some AmazingFeature'`
+4. Push to your branch: `git push origin feature/AmazingFeature`
+5. Open a Pull Request
+
+Please read our [Contributing Guidelines](CONTRIBUTING.md) for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -189,34 +232,29 @@ Project Link: [https://github.com/thefr3spirit/buricare_mobile_app](https://gith
 
 ---
 
-<!-- Shields & Links -->
-[contributors-shield]: https://img.shields.io/github/contributors/thefr3spirit/buricare_mobile_app.svg?style=for-the-badge  
-[contributors-url]: https://github.com/thefr3spirit/buricare_mobile_app/graphs/contributors  
-[forks-shield]: https://img.shields.io/github/forks/thefr3spirit/buricare_mobile_app.svg?style=for-the-badge  
-[forks-url]: https://github.com/thefr3spirit/buricare_mobile_app/network/members  
-[stars-shield]: https://img.shields.io/github/stars/thefr3spirit/buricare_mobile_app.svg?style=for-the-badge  
-[stars-url]: https://github.com/thefr3spirit/buricare_mobile_app/stargazers  
-[issues-shield]: https://img.shields.io/github/issues/thefr3spirit/buricare_mobile_app.svg?style=for-the-badge  
-[issues-url]: https://github.com/thefr3spirit/buricare_mobile_app/issues  
-[license-shield]: https://img.shields.io/github/license/thefr3spirit/buricare_mobile_app.svg?style=for-the-badge  
-[license-url]: https://github.com/thefr3spirit/buricare_mobile_app/blob/main/LICENSE  
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=linkedin  
-[linkedin-url]: https://linkedin.com/in/thefr3spirit  
+<!-- MARKDOWN LINKS & IMAGES -->
+[contributors-shield]: https://img.shields.io/github/contributors/thefr3spirit/buricare_mobile_app.svg?style=for-the-badge
+[contributors-url]: https://github.com/thefr3spirit/buricare_mobile_app/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/thefr3spirit/buricare_mobile_app.svg?style=for-the-badge
+[forks-url]: https://github.com/thefr3spirit/buricare_mobile_app/network/members
+[stars-shield]: https://img.shields.io/github/stars/thefr3spirit/buricare_mobile_app.svg?style=for-the-badge
+[stars-url]: https://github.com/thefr3spirit/buricare_mobile_app/stargazers
+[issues-shield]: https://img.shields.io/github/issues/thefr3spirit/buricare_mobile_app.svg?style=for-the-badge
+[issues-url]: https://github.com/thefr3spirit/buricare_mobile_app/issues
+[license-shield]: https://img.shields.io/github/license/thefr3spirit/buricare_mobile_app.svg?style=for-the-badge
+[license-url]: https://github.com/thefr3spirit/buricare_mobile_app/blob/master/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/thefr3spirit
 
-[Flutter-shield]: https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white  
-[Flutter-url]: https://flutter.dev/  
-[Dart-shield]: https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white  
-[Dart-url]: https://dart.dev/  
-[Firebase-shield]: https://img.shields.io/badge/Firebase-FFA611?style=for-the-badge&logo=firebase&logoColor=white  
-[Firebase-url]: https://firebase.google.com/  
-[Hive-shield]: https://img.shields.io/badge/Hive-5C18A9?style=for-the-badge&logo=hive&logoColor=white  
-[Hive-url]: https://pub.dev/packages/hive_flutter  
-[Riverpod-shield]: https://img.shields.io/badge/Riverpod-6F2DBD?style=for-the-badge&logo=reactivex&logoColor=white  
-[Riverpod-url]: https://pub.dev/packages/flutter_riverpod  
-[Connectivity-shield]: https://img.shields.io/badge/ConnectivityPlus-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white  
-[Connectivity-url]: https://pub.dev/packages/connectivity_plus  
-[Notifications-shield]: https://img.shields.io/badge/LocalNotifications-FF6F00?style=for-the-badge&logo=google&logoColor=white  
-[Notifications-url]: https://pub.dev/packages/flutter_local_notifications  
-
-[product-screenshot]: images/screenshot.png  
-
+[Flutter-shield]: https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white
+[Flutter-url]: https://flutter.dev/
+[Dart-shield]: https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white
+[Dart-url]: https://dart.dev/
+[Firebase-shield]: https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black
+[Firebase-url]: https://firebase.google.com/
+[Hive-shield]: https://img.shields.io/badge/Hive-FF9E0F?style=for-the-badge&logo=hive&logoColor=white
+[Hive-url]: https://pub.dev/packages/hive_flutter
+[Riverpod-shield]: https://img.shields.io/badge/Riverpod-0175C2?style=for-the-badge&logo=dart&logoColor=white
+[Riverpod-url]: https://pub.dev/packages/flutter_riverpod
+[Connectivity-shield]: https://img.shields.io/badge/Connectivity-4285F4?style=for-the-badge&logo=google&logoColor=white
+[Connectivity-url]: https://pub.dev/packages/connectivity_plus
